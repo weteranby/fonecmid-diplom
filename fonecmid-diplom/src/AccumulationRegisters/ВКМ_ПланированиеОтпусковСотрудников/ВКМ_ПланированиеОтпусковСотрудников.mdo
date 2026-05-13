@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be7d6035-07ce-4825-883a-92e1efc56f49">
+  <producedTypes>
+    <selectionType typeId="25a91337-15ec-45b4-8f0f-b790d6c376c4" valueTypeId="52f5cebe-bc1d-4d67-8e75-94d4f4ce7039"/>
+    <listType typeId="a91b0bcf-4fcd-4ed9-9f67-27f5e3cb4168" valueTypeId="72fc7947-a434-4247-9596-f65e54f5d749"/>
+    <managerType typeId="2a1d89f1-9ecf-4f2c-80c5-3365703b0aee" valueTypeId="816099ec-9297-477e-811a-a99fab13dac3"/>
+    <recordSetType typeId="e53a9ae5-5c0a-4469-915f-fffec9d4fc9f" valueTypeId="87091a6c-76ab-45df-bc89-331eb8fad929"/>
+    <recordKeyType typeId="98ceb92f-195e-41f4-95ff-3f9b33a5d445" valueTypeId="c63713c8-2cd7-4997-981a-b4b03a2ba61f"/>
+    <recordType typeId="e6b2be9a-a7ab-4ece-be6c-006a4e520e98" valueTypeId="a926cf03-c6fd-4874-bc7d-b7c8d211e7fc"/>
+  </producedTypes>
+  <name>ВКМ_ПланированиеОтпусковСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование отпусков сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="ee6fd89c-239d-4bf7-a599-11da109a825e">
+    <name>Запланировано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запланировано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="9064a450-f656-4a82-abed-f61447764187">
+    <name>Использовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовано</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="2b4e2fa8-9b7e-4d92-b917-2f8046c30782">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

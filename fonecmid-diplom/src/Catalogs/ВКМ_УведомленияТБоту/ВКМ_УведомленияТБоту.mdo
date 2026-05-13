@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="990205e2-578e-4de4-b0ff-b9cc150df565">
+  <producedTypes>
+    <objectType typeId="d64ea689-db8d-4219-a02b-eaf6f7388b99" valueTypeId="836b020b-1700-475e-9a25-42f3ef5035de"/>
+    <refType typeId="cee482c4-569f-4b35-8bd6-dd104dc2e75c" valueTypeId="cddb4af2-f33f-46a4-9986-63f5cc15b7c7"/>
+    <selectionType typeId="e9269a61-edf1-42d9-9550-9f4daad8de95" valueTypeId="03999dd5-348b-48c4-be1b-89faf6a110f4"/>
+    <listType typeId="9c49fe21-052d-4f2f-a502-bd65c8175beb" valueTypeId="6465226f-a8b1-473b-836d-261acc94a82e"/>
+    <managerType typeId="cb731234-be93-4043-a540-a5ef0ab383e2" valueTypeId="0f6c15b4-6f1a-4533-84bb-eefedc4c077c"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления Telegram боту</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Уведомление telegram боту</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="bac3e2cc-f63f-4c60-bedc-b6ad39aea72a">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

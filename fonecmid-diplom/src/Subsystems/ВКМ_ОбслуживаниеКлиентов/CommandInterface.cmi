@@ -20,7 +20,6 @@
     <placementFragments>
       <group>CommandGroup.ВКМ_Справочники</group>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
-      <commands>Catalog.ВКМ_УведомленияТБоту.StandardCommand.OpenList</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.ВКМ_Документы</group>
@@ -36,7 +35,6 @@
     <orderFragments>
       <group>CommandGroup.ВКМ_Справочники</group>
       <commands>Catalog.ДоговорыКонтрагентов.StandardCommand.OpenList</commands>
-      <commands>Catalog.ВКМ_УведомленияТБоту.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>CommandGroup.ВКМ_Документы</group>

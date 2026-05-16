@@ -15,7 +15,6 @@
   <content>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</content>
   <content>Role.ВКМ_РаботаСДокументомОбслуживаниеКлиента</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
-  <content>Catalog.ВКМ_УведомленияТБоту</content>
   <content>CommonModule.ВКМ_ИнтеграцияСТБотом</content>
   <content>Document.РеализацияТоваровУслуг</content>
   <content>Constant.ВКМ_НоменклатураАбонентскаяПлата</content>

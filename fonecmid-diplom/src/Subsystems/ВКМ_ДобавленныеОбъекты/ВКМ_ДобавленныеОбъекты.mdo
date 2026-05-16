@@ -40,15 +40,15 @@
   <content>CommonForm.ВКМ_НастройкиИнтеграцииСТелеграмом</content>
   <content>CommonForm.ВКМ_КонстантыНаименованийУслуг</content>
   <content>Role.ВКМ_РаботаСДокументомОбслуживаниеКлиента</content>
-  <content>Role.ВКМ_РасчетЗарплатыИОтпусков</content>
-  <content>Role.ВКМ_МассовоеСозданиеАктовРеализации</content>
   <content>Role.ВКМ_РаботаСДокументомРеализацияТоваровИУслуг</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
-  <content>Role.ВКМ_ДоступКОтчетуРасходЗапланированныхОтпусков</content>
-  <content>Role.ВКМ_ДоступКОтчетуРасчетыССотрудниками</content>
-  <content>Role.ВКМ_ДоступКОтчетуАнализВыставленныхАктов</content>
+  <content>Role.ВКМ_МассовоеСозданиеАктовРеализации</content>
+  <content>Role.ВКМ_РасчетЗарплатыИОтпусков</content>
   <content>Role.ВКМ_ДоступКОтчетуВыработкаСпециалистов</content>
+  <content>Role.ВКМ_ДоступКОтчетуАнализВыставленныхАктов</content>
+  <content>Role.ВКМ_ДоступКОтчетуРасчетыССотрудниками</content>
+  <content>Role.ВКМ_ДоступКОтчетуРасходЗапланированныхОтпусков</content>
 </mdclass:Subsystem>

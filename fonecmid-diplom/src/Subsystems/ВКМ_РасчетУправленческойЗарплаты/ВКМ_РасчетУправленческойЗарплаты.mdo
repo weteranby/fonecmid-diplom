@@ -10,9 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.ВКМ_РасчетЗарплаты</picture>
   </picture>
-  <content>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</content>
-  <content>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</content>
-  <content>ChartOfCalculationTypes.ВКМ_Удержания</content>
   <content>CalculationRegister.ВКМ_ОсновныеНачисления</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
   <content>Catalog.ВКМ_ГрафикиРаботы</content>

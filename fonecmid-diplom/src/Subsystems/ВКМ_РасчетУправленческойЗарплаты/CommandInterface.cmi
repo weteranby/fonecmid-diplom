@@ -40,12 +40,6 @@
   </commandsVisibility>
   <commandsPlacement>
     <placementFragments>
-      <group>CommandGroup.ВКМ_ПланыВидовРасчета</group>
-      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</commands>
-    </placementFragments>
-    <placementFragments>
       <group>CommandGroup.ВКМ_Документы</group>
       <commands>Document.ВКМ_НачислениеЗарплаты.StandardCommand.OpenList</commands>
       <commands>Document.ВКМ_НачислениеФиксированнойПремии.StandardCommand.OpenList</commands>
@@ -73,12 +67,6 @@
     </placementFragments>
   </commandsPlacement>
   <commandsOrder>
-    <orderFragments>
-      <group>CommandGroup.ВКМ_ПланыВидовРасчета</group>
-      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.OpenList</commands>
-      <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.OpenList</commands>
-    </orderFragments>
     <orderFragments>
       <group>CommandGroup.ВКМ_Документы</group>
       <commands>Document.ВКМ_НачислениеЗарплаты.StandardCommand.OpenList</commands>
@@ -109,9 +97,6 @@
       <group>ActionsPanelCreate</group>
       <commands>Catalog.ВКМ_ГрафикиРаботы.StandardCommand.Create</commands>
       <commands>Catalog.Пользователи.StandardCommand.Create</commands>
-      <commands>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.StandardCommand.Create</commands>
-      <commands>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardCommand.Create</commands>
-      <commands>ChartOfCalculationTypes.ВКМ_Удержания.StandardCommand.Create</commands>
       <commands>Document.ВКМ_ВыплатаЗарплаты.StandardCommand.Create</commands>
       <commands>Document.ВКМ_ГрафикОтпусков.StandardCommand.Create</commands>
       <commands>Document.ВКМ_НачислениеЗарплаты.StandardCommand.Create</commands>

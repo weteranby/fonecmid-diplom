@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02197311-0c62-4962-b20e-9300f2ad2669">
+  <name>ВКМ_Главное</name>
+  <synonym>
+    <key>ru</key>
+    <value>Главное</value>
+  </synonym>
+</mdclass:CommonPicture>

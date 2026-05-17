@@ -8,7 +8,7 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.ИконкаНетология</picture>
+    <picture>CommonPicture.ВКМ_ПодсистемаДеньги</picture>
   </picture>
   <content>DocumentJournal.Деньги</content>
   <content>Document.ОплатаОтПокупателя</content>

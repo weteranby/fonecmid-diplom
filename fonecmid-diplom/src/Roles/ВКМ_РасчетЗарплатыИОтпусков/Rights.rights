@@ -4,6 +4,42 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.TabularSection.ВыполненныеРаботы.Attribute.ЧасыКОплатеКлиенту</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ДатаПроведенияРабот</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВКМ_ГрафикиРаботы</name>
 		<right>
 			<name>Read</name>
@@ -79,6 +115,20 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ВремяНачалаРабот</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.TabularSection.ВыполненныеРаботы</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>CalculationRegister.ВКМ_ДополнительныеНачисления</name>
 		<right>
 			<name>Read</name>
@@ -94,6 +144,17 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Контрагенты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -256,6 +317,20 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.Комментарий</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.TabularSection.ВыполненныеРаботы.Attribute.ОписаниеРабот</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>CalculationRegister.ВКМ_Удержания</name>
 		<right>
 			<name>Read</name>
@@ -309,6 +384,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.TabularSection.ВыполненныеРаботы.Attribute.ФактическиПотраченоЧасов</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Subsystem.ВКМ_РасчетУправленческойЗарплаты</name>
 		<right>
 			<name>View</name>
@@ -339,6 +421,17 @@
 		</right>
 	</object>
 	<object>
+		<name>ChartOfCalculationTypes.ВКМ_Удержания</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ВКМ_ЗаполнениеГрафика</name>
 		<right>
 			<name>Use</name>
@@ -347,6 +440,24 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыИзмерения</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.Клиент</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -505,6 +616,73 @@
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.Договор</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Posted</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Date</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.StandardAttribute.Number</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ОписаниеПроблемы</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.Специалист</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -668,6 +846,24 @@
 		</right>
 		<right>
 			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента.Attribute.ВремяОкончанияРабот</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ДоговорыКонтрагентов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

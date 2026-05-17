@@ -540,6 +540,10 @@
   <commonPictures>CommonPicture.ВКМ_ЛогоТелеграмм</commonPictures>
   <commonPictures>CommonPicture.ВКМ_Услуги</commonPictures>
   <commonPictures>CommonPicture.ВКМ_Отчеты</commonPictures>
+  <commonPictures>CommonPicture.ВКМ_Главное</commonPictures>
+  <commonPictures>CommonPicture.ВКМ_ПодсистемаДеньги</commonPictures>
+  <commonPictures>CommonPicture.ВКМ_Администрирование</commonPictures>
+  <commonPictures>CommonPicture.ВКМ_ПокупкиИПродажи</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>

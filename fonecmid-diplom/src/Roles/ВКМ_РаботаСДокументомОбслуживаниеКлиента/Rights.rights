@@ -176,6 +176,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.Номенклатура</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.КонтрагентыПрисоединенныеФайлы.Attribute.ВладелецФайла</name>
 		<right>
 			<name>View</name>
@@ -654,6 +665,17 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыИзмерения</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Товары.Attribute.Количество</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.РеализацияТоваровУслуг</name>
 		<right>
 			<name>Read</name>
@@ -110,6 +117,27 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Услуги.Attribute.Скидка</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Товары.Attribute.Цена</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Услуги.Attribute.Номенклатура</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ЗаказПокупателя</name>
 		<right>
 			<name>Read</name>
@@ -118,6 +146,41 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.StandardAttribute.Posted</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.StandardAttribute.Ref</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.StandardAttribute.Date</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.StandardAttribute.Number</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -143,6 +206,27 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ЗаказПокупателя.Attribute.Комментарий</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Товары.Attribute.Сумма</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Услуги</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</name>
 		<right>
 			<name>Read</name>
@@ -151,6 +235,45 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Услуги.Attribute.Количество</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Услуги.Attribute.Цена</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Услуги.Attribute.Сумма</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ЕдиницыИзмерения</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Товары.Attribute.Скидка</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -189,6 +312,27 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ЗаказПокупателя.Attribute.Контрагент</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.Attribute.Договор</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.Attribute.СуммаДокумента</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</name>
 		<right>
 			<name>Read</name>
@@ -200,6 +344,20 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ЗаказПокупателя.Attribute.Организация</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Товары</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ДоговорыКонтрагентов</name>
 		<right>
 			<name>Read</name>
@@ -208,6 +366,20 @@
 		<right>
 			<name>View</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.TabularSection.Товары.Attribute.Номенклатура</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ЗаказПокупателя.Attribute.Ответственный</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 </Rights>

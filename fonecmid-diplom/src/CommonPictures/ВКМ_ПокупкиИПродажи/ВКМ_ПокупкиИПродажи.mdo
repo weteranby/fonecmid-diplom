@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a59b281-ac7c-44af-bed9-6638f92f71de">
+  <name>ВКМ_ПокупкиИПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупки и продажи</value>
+  </synonym>
+</mdclass:CommonPicture>
